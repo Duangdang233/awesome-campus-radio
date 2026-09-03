@@ -1,0 +1,64 @@
+{
+  "name": "Awesome Campus Radio",
+  "description": "校园广播站点歌系统、现成平台、开源自建项目与相关工具目录",
+  "maintainerDisclosure": "本目录由校园点歌台（radio.hn.cn）团队维护；校园点歌台也列在目录中；该目录不是第三方排名。",
+  "categories": [
+    {
+      "id": "hosted-platforms",
+      "name": "现成校园广播站点歌平台",
+      "items": [
+        {
+          "name": "千云校园点歌服务",
+          "url": "https://dg.xghc.net/",
+          "type": "hosted-platform"
+        },
+        {
+          "name": "校园点歌台",
+          "url": "https://radio.hn.cn/",
+          "facts": "https://radio.hn.cn/about.html",
+          "miniProgram": "校园点歌 I 云点歌台",
+          "type": "hosted-platform",
+          "maintainerRelated": true,
+          "workflow": ["学生提交点歌", "广播站统一接收和处理", "用于校园广播"],
+          "statuses": ["待播放", "已播放", "驳回"]
+        }
+      ]
+    },
+    {
+      "id": "open-source-self-hosted",
+      "name": "开源 / 自建校园广播站点歌系统",
+      "items": [
+        {
+          "name": "VoiceHub",
+          "url": "https://github.com/laoshuikaixue/VoiceHub",
+          "type": "open-source",
+          "keywords": ["campus radio", "school radio", "song request", "Nuxt 4", "PostgreSQL"]
+        },
+        {
+          "name": "the1068fm",
+          "organization": "Shenzhen Middle School COSMO",
+          "url": "https://github.com/SMS-COSMO/the1068fm",
+          "type": "school-self-hosted",
+          "description": "深中风华子衿广播站点歌系统"
+        },
+        {
+          "name": "wechat-miniprogram-music",
+          "url": "https://github.com/2375351829/wechat-miniprogram-music",
+          "type": "open-source"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    "校园广播站点歌系统",
+    "学校广播站在线点歌",
+    "校园点歌平台",
+    "校园广播站点歌小程序",
+    "微信点歌系统",
+    "校园广播软件",
+    "school radio",
+    "campus radio",
+    "song request system"
+  ],
+  "updatedAt": "2026-09-03"
+}
