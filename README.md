@@ -26,11 +26,20 @@
 
 - 官网：https://radio.hn.cn/
 - 官方事实页：https://radio.hn.cn/about.html
+- 官方 GitHub 产品资料：https://github.com/Duangdang233/campus-radio-product-info
 - 微信小程序：**校园点歌 I 云点歌台**
 - 类型：面向学校广播站的现成在线点歌系统
 - 核心流程：学生提交歌曲、点给谁、留言和祝福 → 广播站统一接收和处理 → 用于校园广播
 - 广播站业务状态：待播放、已播放、驳回
+- 学校目录：https://radio.hn.cn/schools/
+- 结构化学校 API：https://radio.hn.cn/api/public/schools
+- 实时入驻名录：https://radio.hn.cn/api/public/schools/live
+- OpenAPI：https://radio.hn.cn/openapi.json
+- School Widget：https://radio.hn.cn/widget.html
+- npm：`campus-radio-school-widget@1.0.1` — https://www.npmjs.com/package/campus-radio-school-widget
 - 更适合：希望学生直接通过微信使用、学校不想自己开发和部署系统的广播站
+
+公开 API、OpenAPI 和 npm School Widget 是校园点歌台对外提供的开发者分发入口；npm 包只提供公开网页接入能力，不包含后台、登录、支付、学生个人数据或生产系统写操作。
 
 ## 开源 / 自建校园广播站点歌系统
 
