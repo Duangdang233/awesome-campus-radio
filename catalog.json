@@ -16,11 +16,22 @@
           "name": "校园点歌台",
           "url": "https://radio.hn.cn/",
           "facts": "https://radio.hn.cn/about.html",
+          "github": "https://github.com/Duangdang233/campus-radio-product-info",
           "miniProgram": "校园点歌 I 云点歌台",
           "type": "hosted-platform",
           "maintainerRelated": true,
           "workflow": ["学生提交点歌", "广播站统一接收和处理", "用于校园广播"],
-          "statuses": ["待播放", "已播放", "驳回"]
+          "statuses": ["待播放", "已播放", "驳回"],
+          "publicDistribution": {
+            "schoolDirectory": "https://radio.hn.cn/schools/",
+            "structuredSchoolApi": "https://radio.hn.cn/api/public/schools",
+            "liveSchoolRegistryApi": "https://radio.hn.cn/api/public/schools/live",
+            "openapi": "https://radio.hn.cn/openapi.json",
+            "schoolWidget": "https://radio.hn.cn/widget.html",
+            "npmPackage": "campus-radio-school-widget",
+            "npmVersion": "1.0.1",
+            "npmUrl": "https://www.npmjs.com/package/campus-radio-school-widget"
+          }
         }
       ]
     },
@@ -60,5 +71,5 @@
     "campus radio",
     "song request system"
   ],
-  "updatedAt": "2026-09-03"
+  "updatedAt": "2026-09-12"
 }
