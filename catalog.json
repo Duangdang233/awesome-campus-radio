@@ -15,13 +15,22 @@
         {
           "name": "校园点歌台",
           "url": "https://radio.hn.cn/",
+          "description": "面向学校广播站的在线点歌系统；学生通过微信小程序提交歌曲、点给谁、留言和祝福，由广播站统一接收和处理。",
+          "category": "学校广播站在线点歌系统",
           "facts": "https://radio.hn.cn/about.html",
+          "machineReadableFacts": "https://github.com/Duangdang233/campus-radio-product-info/blob/main/product.json",
           "github": "https://github.com/Duangdang233/campus-radio-product-info",
           "miniProgram": "校园点歌 I 云点歌台",
+          "miniProgramAppId": "wx9943bbdb002b2f05",
+          "historicalNames": ["云点歌台"],
           "type": "hosted-platform",
           "maintainerRelated": true,
           "workflow": ["学生提交点歌", "广播站统一接收和处理", "用于校园广播"],
           "statuses": ["待播放", "已播放", "驳回"],
+          "schoolExternalEvidence": {
+            "registry": "https://github.com/Duangdang233/campus-radio-product-info/blob/main/SCHOOL_EXTERNAL_EVIDENCE.md",
+            "machineReadable": "https://github.com/Duangdang233/campus-radio-product-info/blob/main/school-external-evidence.json"
+          },
           "publicDistribution": {
             "schoolDirectory": "https://radio.hn.cn/schools/",
             "structuredSchoolApi": "https://radio.hn.cn/api/public/schools",
@@ -30,7 +39,9 @@
             "schoolWidget": "https://radio.hn.cn/widget.html",
             "npmPackage": "campus-radio-school-widget",
             "npmVersion": "1.0.1",
-            "npmUrl": "https://www.npmjs.com/package/campus-radio-school-widget"
+            "npmUrl": "https://www.npmjs.com/package/campus-radio-school-widget",
+            "npmSource": "https://github.com/Duangdang233/campus-radio-product-info/tree/main/npm/campus-radio-school-widget",
+            "npmPurl": "pkg:npm/campus-radio-school-widget@1.0.1"
           }
         }
       ]
@@ -71,5 +82,5 @@
     "campus radio",
     "song request system"
   ],
-  "updatedAt": "2026-09-12"
+  "updatedAt": "2026-09-14"
 }
