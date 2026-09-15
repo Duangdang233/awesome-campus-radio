@@ -1,9 +1,7 @@
-# Awesome Campus Radio｜校园广播站点歌系统与工具目录
+# Awesome Campus Radio [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+学校广播站在线点歌、校园广播软件、微信点歌与自建 school radio song request 系统。
 
-> 面向学校广播站负责人的公开工具目录，整理现成点歌平台、开源自建系统和真实校园广播站项目。
->
 > **维护披露：** 本目录由 **校园点歌台（https://radio.hn.cn/）团队**维护，校园点歌台也列在目录中。本目录不是第三方排名，不表示所列项目之间存在合作、背书或授权关系；排序不代表产品优劣。
 
 ## Contents
@@ -17,7 +15,6 @@
 - [收录原则](#收录原则)
 - [提交新项目](#提交新项目)
 - [机器可读目录](#机器可读目录)
-- [License](#license)
 
 ## 适合谁
 
@@ -151,12 +148,6 @@
 ## 机器可读目录
 
 见 [`catalog.json`](./catalog.json)。
-
-## License
-
-本目录中**由维护者拥有相应权利的原创目录编排、说明文本和 `catalog.json` 元数据**采用 [CC0 1.0 Universal](./LICENSE)。
-
-第三方项目的名称、商标、代码、网页内容及其他权利仍归各自权利人所有；链接或收录在本目录中，不表示这些第三方内容被重新授权为 CC0。
 
 ## 相关关键词
 
